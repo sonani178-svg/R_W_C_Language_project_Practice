@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main() {
-    int  area , length , width;
-    float l = 5;
-    float w = 8.7;
+    float  area;
+    float length = 5;
+    float width = 8.7;
 
-    scanf("%f%f", &area, &length ,&width);
+    scanf("%f%f", &length ,&width);
     
- printf("area of rectangle =  %f", l * w);
+ printf("area of rectangle =  %f", length * width);
       
     return 0;
 
