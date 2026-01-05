@@ -3,7 +3,7 @@
 #include <stdio.h>
 int main(){
 
-int a = 10;
+int a = 60;
 int b = 30;
 
 if (a < b){
