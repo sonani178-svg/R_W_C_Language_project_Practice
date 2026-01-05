@@ -3,11 +3,11 @@ int main(){
  int a = 10;
  int b = 20;
  if(a > b){
-    printf("a is maximum number");
+    printf("maximum number is %d\n", a);
  }
 
     else if(a < b){
-        printf("b is maximum number");
+        printf("maximum number is %d\n", b);
 
     }
  
