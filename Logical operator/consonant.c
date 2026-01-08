@@ -1,9 +1,10 @@
+
 #include <stdio.h>
 int main(){
 
     char ch ;
     printf("enter the character");
-    scanf("%c" , &ch);
+    scanf(" %c" , &ch);
      
     //check the vowel using OR (||)
 
@@ -16,6 +17,7 @@ int main(){
         printf("%c is a vowel", ch);
     }
 // check the consonant using AND (&&)
+
   else if( (ch >= 'A' && ch <= 'Z') ||
 (ch >= 'a' && ch <= 'z'))
 {
@@ -25,8 +27,6 @@ else
 {
     printf("%c is not an alphabet", ch);
 }
-
-
  
     return 0;
 }
