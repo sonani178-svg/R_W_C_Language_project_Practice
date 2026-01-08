@@ -1,17 +1,23 @@
+
 #include <stdio.h>
 int main(){
-int a;
 
-printf("enter numbers");
-scanf ("%d", &a);
+int a, snum, bnum;
+printf("enter the snum");
+scanf("%d", &snum);
 
-if(1<10 && 1>10){
+printf("enter the lnum");
+scanf("%d", &bnum);
 
-    printf("%d lies between 1 to 10", a);
-}else{
-    printf("%d does not lies between 1 to  10", a);
+printf("enter the a num");
+scanf("%d", &a);
+
+if(a>=snum && a<=bnum){
+    printf("%d lies between %d and %d\n", a, snum, bnum);
 }
-
-
-    return 0;
+    else
+{
+    printf("%d does not lie between %d and %d", a, snum, bnum);
+}
+return 0;
 }
