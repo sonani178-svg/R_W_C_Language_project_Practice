@@ -2,7 +2,7 @@
 
 int main()
 {
-    int x;
+    int x=5;
     scanf("%d", &x);
     printf("x=%d", x);
 
