@@ -1,13 +1,26 @@
 #include <stdio.h>
 int main(){
-    int a = 5;
-    int b 10;
- int = swap no;
+    int a; 
+    int b; 
+ 
     // using swap airthmetic operator
 
-    printf("swap num : %d", a b);
+    printf("emter value of a :");
+    scanf("%d", &a);
+
+    printf("enter value of b :");
+    scanf("%d", &b);
     
-    
-    
+    // swaping without third variable
+
+    a= a+b;
+    b= a-b;
+    a= a-b;
+
+    printf("swap num : \n");
+    printf("a= %d\n", a);
+    printf("b= %d\n", b);
+
+
     return 0;
 }
